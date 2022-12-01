@@ -1,6 +1,0 @@
-services:
-  nonononovscodecontainer:
-    image: alpine
-    # build: 
-    #   context: .
-    #   dockerfile: Dockerfile.vscodecontainer

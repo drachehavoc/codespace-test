@@ -1,0 +1,12 @@
+services:
+  postgres:
+    restart: always
+    extends:
+      file: service.postgres.yaml
+      service: development
+
+  redis:
+    restart: always
+    extends:
+      file: service.redis.yaml
+      service: development
